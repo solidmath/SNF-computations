@@ -40,5 +40,5 @@ Example (inside SageMath):
 load("SNF_for_PLA.py")
 
 # Compute the Grothendieck group for  punctured directed power graph of Z_9
-result = 
+result = dhsw_snf(adj(9))
 print(result)
