@@ -37,8 +37,8 @@ The directed power graph approach leverages the combinatorial structure of finit
 Example (inside SageMath):
 ```python
 # Load the main file
-load("SNF_computation.sage")
+load("SNF_for_PLA.py")
 
-# Compute the Grothendieck group for directed power graph of Z_9
-result = grothendieck_group_pow(9)
+# Compute the Grothendieck group for  punctured directed power graph of Z_9
+result = 
 print(result)
